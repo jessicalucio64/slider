@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --ops: 'Merriweather', serif;
+  --ops1: 'Open Sans', sans-serif;
+  --bree: 'Bree Serif', serif;
+  --dorado:#FFE05E;
+  --VERDE_OSCURO:#0a4436;
+  --VERDE_CLARO: #208e1b;
+  --GRIS_CLARO: #bcbcbc;
+  --GRIS_OSCURO: #9e9e9e;
+  --GRISO_MEDIO: #a5a5a5;
+  --DORADO_OSCURO: #987013;
+  --DORADO_CLARO: #ffea80;
+  --NEGRO: #262626;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

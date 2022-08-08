@@ -14,6 +14,8 @@
     justify-content: center;
     align-items: center;
     margin-top: -3%;
+    max-width: 2100px;
+    min-width: 500px;
 
 
     .contendor__inicio__titulo {
@@ -1078,149 +1080,7 @@
 
     }
 }
-  @media screen and (max-width: 991px){
-    .contendor__inicio {
-      background: url('../../../assets/images/FONDO_HEADER_CELULAR/iconografia-hacienda-valbuena-celular.webp');
 
-
-
-      .contendor__inicio__titulo {
-        color: var(--DORADO_OSCURO);
-        margin-top: -15%;
-
-
-        .titulo {
-          border-right: var(--DORADO_OSCURO) 1px solid;
-
-        }
-
-        .titulo1 {
-
-          height: 60px;
-          border-right: var(--ops) 1px solid;
-          font-size: 0.5em;
-          margin-top: -10%;
-
-        }
-
-      }
-
-      .contendor__inicio__subtitulo {
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        color: var(--DORADO_CLARO);
-        font-family: var(--ops);
-        font-size: 1em;
-        display: flex;
-        margin-top: -20%;
-
-
-
-
-      }
-      .container__textos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        margin-top: 22%;
-        margin-left: 20%;
-        font-family: var(--ops);
-        font-size: 1.2em;
-        font-weight: 200;
-        color: white;
-        width: 80%;
-        padding-bottom: 3%;
-        .container__textos_parrafo{
-          margin-top: 50%;
-        }
-        .boton__whatsapp{
-          display: flex;
-          font-family: var(--ops);
-          background: none;
-          border: none;
-          margin-top: 50%;
-
-          padding: 0;
-          width: 50%;
-
-          .container__whatsapp{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: var(--ops);
-            border-radius: 12px;
-            border: var(--DORADO_CLARO) 2px solid;
-            width: 50%;
-            height: 40px;
-            color: white;
-            .img__whatsapp{
-              width: 8%;
-            }
-
-          }
-
-
-        }
-      }
-
-    }
-    .decoracion{
-      display: none;
-    }
-    .contaier__tarjetas{
-      background: url('../../../assets/images/FONDO_HEADER_CELULAR/fondo-maps-celular.webp');
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 30vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: -5%;
-      position: relative;
-      z-index: 1;
-      .container__tarjetas__titulo{
-        margin-top: 10%;
-        font-size: 1em;
-
-      }
-      .boton__whatsapp{
-        display: flex;
-        font-family: var(--ops);
-        background: none;
-        border: none;
-        margin-top: 0%;
-
-        padding: 0;
-        width: 60%;
-
-        .container__whatsapp{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-family: var(--ops);
-          border-radius: 12px;
-          border: var(--verde) 2px solid;
-          background-color: var(--VERDE_OSCURO);
-          width: 30%;
-          height: 50px;
-          color: white;
-          margin: auto;
-          margin-top: 2%;
-          .img__whatsapp{
-            width: 8%;
-          }
-
-        }
-
-
-      }
-
-
-    }
-  }
   html {
     scroll-behavior: smooth;
    }
@@ -1630,4 +1490,2147 @@
   }
 
 
+}
+
+@media only screen and (max-width: 2030){
+  .contenedor__principal{
+
+
+
+    .contendor__inicio {
+      background: url('../../../assets/images/FONDO_HEADER_ESCRITORIO/iconografia-hacienda-valbuena-escritorio.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -3%;
+      max-width: 2100px;
+      min-width: 500px;
+
+
+      .contendor__inicio__titulo {
+        color: var(--DORADO_CLARO);
+        font-size: 2em;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        font-family: var(--bree);
+        letter-spacing: 1px;
+
+        .titulo {
+
+          height: 60px;
+          border-right: var(--DORADO_CLARO) 1px solid;
+
+        }
+
+        .titulo1 {
+
+          height: 60px;
+          border-right: var(--ops) 1px solid;
+          font-size: 0.5em;
+          margin-top: -20%;
+
+        }
+
+      }
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -290%;
+        }
+
+      }
+
+    }
+    .decoracion{
+      width: 50%;
+      margin-left: 15%;
+      margin-top: -3%;
+      .decoracion__verde{
+        width: 4%;
+        margin-top: -2%;
+        margin-left: -2%;
+        height: 7vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 10vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+
+
+
+
+  }
+
+}
+@media only screen and (max-width: 1850){
+  .contenedor__principal{
+
+
+
+    .contendor__inicio {
+      background: url('../../../assets/images/FONDO_HEADER_ESCRITORIO/iconografia-hacienda-valbuena-escritorio.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -3%;
+      max-width: 2100px;
+      min-width: 500px;
+
+
+      .contendor__inicio__titulo {
+        color: var(--DORADO_CLARO);
+        font-size: 2em;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        font-family: var(--bree);
+        letter-spacing: 1px;
+
+        .titulo {
+
+          height: 60px;
+          border-right: var(--DORADO_CLARO) 1px solid;
+
+        }
+
+        .titulo1 {
+
+          height: 60px;
+          border-right: var(--ops) 1px solid;
+          font-size: 0.5em;
+          margin-top: -20%;
+
+        }
+
+      }
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -50%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -300%;
+        }
+
+      }
+      .container__textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 22%;
+        margin-left: 20%;
+        font-family: var(--ops);
+        font-size: 1.2em;
+        font-weight: 200;
+        color: white;
+        width: 50%;
+        padding-bottom: 3%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: 50%;
+
+          padding-top: -3;
+          width: 50%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--DORADO_CLARO) 2px solid;
+            width: 60%;
+            height: 40px;
+            color: white;
+            .img__whatsapp{
+              width: 9%;
+            }
+
+          }
+
+
+        }
+      }
+
+    }
+    .decoracion{
+      width: 50%;
+      margin-left: 15%;
+      margin-top: -3%;
+      .decoracion__verde{
+        width: 4%;
+        margin-top: -2%;
+        margin-left: -2%;
+        height: 7vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 10vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+
+
+
+
+  }
+
+}
+@media only screen and (max-width: 1820){
+  .contenedor__principal{
+
+
+
+    .contendor__inicio {
+      background: url('../../../assets/images/FONDO_HEADER_ESCRITORIO/iconografia-hacienda-valbuena-escritorio.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -3%;
+      max-width: 2100px;
+      min-width: 500px;
+
+
+      .contendor__inicio__titulo {
+        color: var(--DORADO_CLARO);
+        font-size: 2em;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        font-family: var(--bree);
+        letter-spacing: 1px;
+
+        .titulo {
+
+          height: 60px;
+          border-right: var(--DORADO_CLARO) 1px solid;
+
+        }
+
+        .titulo1 {
+
+          height: 60px;
+          border-right: var(--ops) 1px solid;
+          font-size: 0.5em;
+          margin-top: -20%;
+
+        }
+
+      }
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -100%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -100%;
+        }
+
+      }
+      .container__textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 22%;
+        margin-left: 20%;
+        font-family: var(--ops);
+        font-size: 1.2em;
+        font-weight: 200;
+        color: white;
+        width: 50%;
+        padding-bottom: 3%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+
+      }
+
+    }
+
+
+
+
+
+  }
+
+}
+@media only  screen and (max-width: 1728){
+  .contenedor__principal{
+
+    .contendor__inicio {
+      background: url('../../../assets/images/FONDO_HEADER_ESCRITORIO/iconografia-hacienda-valbuena-escritorio.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -3%;
+      max-width: 2100px;
+      min-width: 500px;
+
+
+      .contendor__inicio__titulo {
+        color: var(--DORADO_CLARO);
+        font-size: 2em;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        font-family: var(--bree);
+        letter-spacing: 1px;
+
+        .titulo {
+
+          height: 60px;
+          border-right: var(--DORADO_CLARO) 1px solid;
+
+        }
+
+        .titulo1 {
+
+          height: 60px;
+          border-right: var(--ops) 1px solid;
+          font-size: 0.5em;
+          margin-top: -20%;
+
+        }
+
+      }
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -290%;
+        }
+
+      }
+      .container__textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 22%;
+        margin-left: 20%;
+        font-family: var(--ops);
+        font-size: 1.2em;
+        font-weight: 200;
+        color: white;
+        width: 50%;
+        padding-bottom: 3%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: 50%;
+
+          padding-top: -3;
+          width: 50%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--DORADO_CLARO) 2px solid;
+            width: 60%;
+            height: 40px;
+            color: white;
+            .img__whatsapp{
+              width: 9%;
+            }
+
+          }
+
+
+        }
+      }
+
+    }
+    .decoracion{
+      width: 50%;
+      margin-left: 15%;
+      margin-top: -3%;
+      .decoracion__verde{
+        width: 4%;
+        margin-top: -2%;
+        margin-left: -2%;
+        height: 7vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 10vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .contaier__tarjetas{
+      background: url('../../../assets/images/FONDO_HEADER_ESCRITORIO/fondo-maps-escritorio.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -10%;
+      position: absolute;
+      z-index: -1;
+      margin-bottom: 10%;
+      .container__tarjetas__titulo{
+        margin-top: 10%;
+        color: var(--VERDE_OSCURO);
+        font-size: 1.5em;
+        line-height: 20px;
+        .span__verde{
+          font-weight:bold;
+
+        }
+      }
+      .boton__whatsapp{
+        display: flex;
+        font-family: var(--ops);
+        background: none;
+        border: none;
+        margin-top: 0%;
+
+        padding: 0;
+        width: 50%;
+
+        .container__whatsapp{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: var(--ops);
+          border-radius: 12px;
+          border: var(--verde) 2px solid;
+          background-color: var(--VERDE_OSCURO);
+          width: 30%;
+          height: 50px;
+          color: white;
+          margin: auto;
+
+          .img__whatsapp{
+            width: 8%;
+          }
+
+        }
+
+
+      }
+
+
+    }
+
+    .container__viviendas{
+      width: 100%;
+      margin-top: 25%;
+      display: flex;
+      padding-left: 3%;
+      margin-bottom: -15%;
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 57vh;
+        border-radius: 5% 0% 0% 5%;
+        background: red;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 0.5em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 9%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+
+
+    }
+
+    .decoracion1{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-end;
+      .decoracion__verde{
+        width: 15%;
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 8vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas1{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      padding-right: 3%;
+      margin-bottom: -15%;
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 57vh;
+        border-radius: 0% 5% 5% 0%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-right: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 4em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .container__viviendas2{
+      width: 100%;
+      margin-top: 15%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      display: flex;
+      padding-left: 3%;
+      margin-bottom: -20%;
+      background-color: var(--VERDE_OSCURO);
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 65vh;
+        border-radius: 5% 0% 0% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 4em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .decoracion2{
+      width: 100%;
+      margin-top: 6%;
+      margin-bottom: -10%;
+      display: flex;
+      justify-content: flex-end;
+
+      .decoracion__dorado{
+        width: 15%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas3{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      padding-right: 3%;
+      padding-bottom: 5%;
+      margin-bottom: -20%;
+      background-color: var(--VERDE_OSCURO);
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 65vh;
+        border-radius: 0% 5% 5% 0%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-right: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 4em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .decoracion3{
+      width: 100%;
+      margin-top: 18%;
+      margin-bottom: -15%;
+      display: flex;
+      justify-content: flex-start;
+
+      .decoracion__dorado{
+        width: 11%;
+        height: 7vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+
+    .container__viviendas4{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      padding-left: 3%;
+      margin-bottom: -5%;
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 65vh;
+        border-radius: 5% 0% 0% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 4em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+
+
+    }
+
+    .container__viviendas5{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      padding-right: 3%;
+      margin-bottom: -15%;
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 65vh;
+        border-radius: 0% 5% 5% 0%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-right: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 4em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+
+    .container__viviendas6{
+      width: 100%;
+      margin-top: 15%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      display: flex;
+      padding-left: 3%;
+      margin-bottom: -20%;
+      background-color: var(--VERDE_OSCURO);
+      .container__slyder{
+        width: 70%;
+      }
+      .container__caracteristicas{
+        width: 35%;
+        height: 75vh;
+        border-radius: 5% 0% 0% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 4em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -10%;
+          margin-left: 10%;
+
+          padding: 0;
+          width: 110%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 90%;
+            height: 50px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+
+
+
+
+
+
+  }
+
+}
+@media only screen and (max-width: 991px){
+  .contenedor__principal{
+    .contendor__inicio {
+      background: url('../../../assets/images/FONDO_HEADER_CELULAR/iconografia-hacienda-valbuena-celular.webp');
+
+
+
+      .contendor__inicio__titulo {
+        color: var(--DORADO_OSCURO);
+        margin-top: -25%;
+
+        .titulo1 {
+
+          font-size: 0.5em;
+          margin-top: -20%;
+
+        }
+
+      }
+
+      .contendor__inicio__subtitulo {
+
+        margin-top: -35%;
+        .sub{
+          margin-top: -80%;
+
+        }
+
+
+
+      }
+      .container__textos{
+
+
+        margin-top: 22%;
+        margin-left: 20%;
+        width: 80%;
+        padding-bottom: 3%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: 50%;
+
+          padding: 0;
+          width: 50%;
+
+
+
+
+        }
+      }
+
+    }
+    .decoracion{
+      display: none;
+    }
+    .contaier__tarjetas{
+      background: url('../../../assets/images/FONDO_HEADER_CELULAR/fondo-maps-celular.webp');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -25%;
+      position: relative;
+      z-index: 1;
+      .container__tarjetas__titulo{
+        margin-top: 10%;
+        font-size: 1em;
+
+      }
+      .boton__whatsapp{
+        display: flex;
+        font-family: var(--ops);
+        background: none;
+        border: none;
+        margin-top: 0%;
+
+        padding: 0;
+        width: 60%;
+
+        .container__whatsapp{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: var(--ops);
+          border-radius: 12px;
+          border: var(--verde) 2px solid;
+          background-color: var(--VERDE_OSCURO);
+          width: 30%;
+          height: 50px;
+          color: white;
+          margin: auto;
+          margin-top: 2%;
+          .img__whatsapp{
+            width: 8%;
+          }
+
+        }
+
+
+      }
+
+
+    }
+    .container__viviendas{
+      width: 100%;
+      margin-top: 15%;
+      display: flex;
+      padding-left: 3%;
+      padding-right: 3%;
+      margin-bottom: -15%;
+      flex-direction: column;
+      .container__slyder{
+        width: 100%;
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 57vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-right: -3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: 0%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+
+
+    }
+    .decoracion1{
+      display: none;
+    }
+    .container__viviendas1{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      flex-direction: column;
+      padding-right: 3%;
+      padding-left: 3%;
+      margin-bottom: -15%;
+      .container__slyder{
+        width: 100%;
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 57vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-right: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .container__viviendas2{
+      width: 100%;
+      margin-top: 15%;
+      padding-top: 5%;
+      padding-left: 3%;
+      padding-bottom: 5%;
+      display: flex;
+      flex-direction: column;
+      padding-right: 3%;
+      margin-bottom: -20%;
+      background-color: var(--VERDE_OSCURO);
+      .container__slyder{
+        width: 100%;
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 65vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-right: 3%;
+
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: 0%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .decoracion2{
+      display: none;
+
+    }
+    .container__viviendas3{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      flex-direction: column;
+      padding-right: 3%;
+      padding-left: 3%;
+      padding-bottom: 5%;
+      margin-bottom: -20%;
+      background-color: var(--VERDE_OSCURO);
+      .container__slyder{
+        width: 100%;
+
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 65vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-right: -5%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .decoracion3{
+      display: none;
+    }
+
+    .container__viviendas4{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      flex-direction: column;
+      padding-left: 3%;
+      padding-right: 3%;
+      margin-bottom: -5%;
+      .container__slyder{
+        width: 100%;
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 65vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: 0%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+
+
+    }
+
+    .decoracion4{
+      display: none;
+    }
+    .container__viviendas5{
+      width: 100%;
+      margin-top: 20%;
+      display: flex;
+      flex-direction: column;
+      padding-right: 3%;
+      padding-left: 3%;
+      margin-bottom: -15%;
+      .container__slyder{
+        width: 100%;
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 65vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-right: 0%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+    .decoracion5{
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-start;
+      .decoracion__verde1{
+        width: 13%;
+        margin-top: 3%;
+        height: 4.5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado2{
+        width: 10%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas6{
+      width: 100%;
+      margin-top: 15%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      display: flex;
+      flex-direction: column;
+      padding-left: 3%;
+      padding-right: 3%;
+      margin-bottom: -20%;
+      background-color: var(--VERDE_OSCURO);
+      .container__slyder{
+        width: 100%;
+      }
+      .container__caracteristicas{
+        width: 100%;
+        height: 75vh;
+        border-radius: 5% 5% 5% 5%;
+        background: white;
+        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+        padding-left: 3%;
+
+        padding-top: 3%;
+        padding-bottom: -3%;
+        margin-top: 5%;
+        position: relative;
+        z-index: 2;
+        margin-left: 0%;
+        .titulo{
+
+          .titulo1{
+            font-size: 2.5em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -20%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 30%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+    }
+
+  }
 }

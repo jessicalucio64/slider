@@ -2864,10 +2864,6 @@
 @media only screen and (min-width: 1000px){
   .contenedor__principal{
 
-    max-width: 2030px;
-    min-width: 800px;
-    margin: auto;
-
 
     .contendor__inicio {
       background: url('../../../assets/images/FONDO_HEADER_ESCRITORIO/iconografia-hacienda-valbuena-escritorio.webp');
@@ -3634,7 +3630,7 @@
       }
       .container__caracteristicas{
         width: 35%;
-        height: 65vh;
+        height: 50vh;
         border-radius: 0% 5% 5% 0%;
         background: white;
         box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
@@ -3648,7 +3644,7 @@
         .titulo{
 
           .titulo1{
-            font-size: 4em;
+            font-size: 2.5em;
             font-weight: 800;
             letter-spacing: 1px;
             font-family: var(--ops);
@@ -3659,7 +3655,7 @@
         }
 
         .especificaciones{
-          font-size: 1em;
+          font-size: 0.8em;
           font-weight: 800;
           letter-spacing: 1px;
           font-family: var(--ops1);
@@ -3755,7 +3751,7 @@
       }
       .container__caracteristicas{
         width: 35%;
-        height: 75vh;
+        height: 59vh;
         border-radius: 5% 0% 0% 5%;
         background: white;
         box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
@@ -3769,7 +3765,7 @@
         .titulo{
 
           .titulo1{
-            font-size: 4em;
+            font-size: 2.5em;
             font-weight: 800;
             letter-spacing: 1px;
             font-family: var(--ops);
@@ -3780,9 +3776,9 @@
         }
 
         .especificaciones{
-          font-size: 1em;
+          font-size: 0.8em;
           font-weight: 800;
-          letter-spacing: 1px;
+          letter-spacing: 0.5px;
           font-family: var(--ops1);
 
           .especificacion{
@@ -3814,10 +3810,10 @@
           background: none;
           border: none;
           margin-top: -20%;
-          margin-left: 20%;
-
+          margin-left: -8%;
+          font-size: 0.5em;
           padding: 0;
-          width: 80%;
+          width: 500px;
 
           .container__whatsapp{
             display: flex;

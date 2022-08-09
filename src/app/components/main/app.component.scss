@@ -2996,38 +2996,64 @@
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1504px){
-  .contenedor__principal{
-    background-color: #ffea80;
+@media screen and (min-width: 1000px) and (max-width: 1170px){
 
+  .contenedor__principal{
+
+
+    .contendor__inicio {
+
+
+
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -50%;
+        }
+
+      }
+      .container__textos{
+
+        margin-top: 22%;
+        margin-left: 25%;
+        font-size: 1em;
+        width: 70%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+
+      }
+
+    }
+    .decoracion{
+      margin-left: 26%;
+
+    }
+    .contaier__tarjetas{
+
+      margin-top: -20%;
+
+
+    }
 
     .container__viviendas{
-      width: 100%;
-      margin-top: 15%;
-      display: flex;
-      padding-left: 3%;
-      margin-bottom: -15%;
-      background-color: #0472FF;
-      .container__slyder{
-        width: 70%;
-      }
+
       .container__caracteristicas{
-        width: 35%;
-        height: 57vh;
-        border-radius: 5% 0% 0% 5%;
-        background: red;
-        box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
-        padding-left: 3%;
-        padding-top: 3%;
-        padding-bottom: -3%;
-        margin-top: 5%;
-        position: relative;
-        z-index: 2;
-        margin-left: -5%;
+
+
         .titulo{
 
           .titulo1{
-            font-size: 8em;
+            font-size: 3em;
             font-weight: 800;
             letter-spacing: 1px;
             font-family: var(--ops);
@@ -3065,12 +3091,145 @@
 
           }
         }
+
         .boton__whatsapp{
           display: flex;
           font-family: var(--ops);
           background: none;
           border: none;
-          margin-top: -20%;
+          margin-top: -17%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+    .decoracion1{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-end;
+      .decoracion__verde{
+        width: 15%;
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 8vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas1{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -17%;
+          margin-left: 22%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .container__viviendas2{
+
+
+      .container__caracteristicas{
+
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -15%;
           margin-left: 20%;
 
           padding: 0;
@@ -3084,7 +3243,7 @@
             border-radius: 12px;
             border: var(--verde) 2px solid;
             background-color: var(--VERDE_OSCURO);
-            width: 30%;
+            width: 60%;
             height: 40px;
             color: white;
             margin: auto;
@@ -3099,13 +3258,1976 @@
         }
 
       }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+    .container__viviendas3{
+
+      margin-top: 18%;
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+          }
+
+        }
 
 
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 23%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+    .container__viviendas4{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+
+
+        }
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+
+
+    }
+
+    .container__viviendas5{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 22%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .decoracion5{
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-start;
+      .decoracion__verde1{
+        width: 13%;
+        margin-top: 3%;
+        height: 4.5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado2{
+        width: 10%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas6{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
     }
 
 
 
 
   }
+}
+@media screen and (min-width: 1171px) and (max-width: 1250px){
 
+  .contenedor__principal{
+
+
+    .contendor__inicio {
+
+
+
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -100%;
+        }
+
+      }
+      .container__textos{
+
+        margin-top: 22%;
+        margin-left: 25%;
+        font-size: 1em;
+        width: 70%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+
+      }
+
+    }
+    .decoracion{
+      margin-left: 21.5%;
+
+    }
+    .contaier__tarjetas{
+
+      margin-top: -20%;
+
+
+    }
+
+    .container__viviendas{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -17%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+    .decoracion1{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-end;
+      .decoracion__verde{
+        width: 15%;
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 8vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas1{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -17%;
+          margin-left: 22%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .container__viviendas2{
+
+
+      .container__caracteristicas{
+
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -15%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 60%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+    .container__viviendas3{
+
+      margin-top: 18%;
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 23%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+    .container__viviendas4{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+
+
+        }
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+
+
+    }
+
+    .container__viviendas5{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 22%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .decoracion5{
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-start;
+      .decoracion__verde1{
+        width: 13%;
+        margin-top: 3%;
+        height: 4.5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado2{
+        width: 10%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas6{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+
+
+  }
+}
+@media screen and (min-width: 1251px) and (max-width: 1340px){
+
+  .contenedor__principal{
+
+
+    .contendor__inicio {
+
+
+
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -100%;
+        }
+
+      }
+      .container__textos{
+
+        margin-top: 22%;
+        margin-left: 25%;
+        font-size: 1em;
+        width: 70%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+
+      }
+
+    }
+    .decoracion{
+      margin-left: 21.5%;
+
+    }
+    .contaier__tarjetas{
+
+      margin-top: -20%;
+
+
+    }
+
+    .container__viviendas{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            font-family: var(--ops);
+            color: var(--VERDE_OSCURO);
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -17%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+    .decoracion1{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-end;
+      .decoracion__verde{
+        width: 15%;
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 8vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas1{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -17%;
+          margin-left: 22%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .container__viviendas2{
+
+
+      .container__caracteristicas{
+
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -15%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 60%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+    .container__viviendas3{
+
+      margin-top: 18%;
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 23%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+    .container__viviendas4{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+
+
+        }
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+
+
+    }
+
+    .container__viviendas5{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 22%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .decoracion5{
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-start;
+      .decoracion__verde1{
+        width: 13%;
+        margin-top: 3%;
+        height: 4.5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado2{
+        width: 10%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas6{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+
+          margin-top: -15%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+
+
+  }
+}
+@media screen and (min-width: 1341px) and (max-width: 1440px){
+
+  .contenedor__principal{
+
+
+    .contendor__inicio {
+
+
+
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -180%;
+        }
+
+      }
+      .container__textos{
+
+        margin-top: 22%;
+        margin-left: 25%;
+        font-size: 1em;
+        width: 70%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+
+      }
+
+    }
+    .decoracion{
+      margin-left: 19%;
+
+    }
+    .contaier__tarjetas{
+
+      margin-top: -13%;
+
+
+    }
+
+    .container__viviendas{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -14%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+    .decoracion1{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-end;
+      .decoracion__verde{
+        width: 15%;
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 8vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas1{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -15%;
+          margin-left: 22%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .container__viviendas2{
+
+
+      .container__caracteristicas{
+
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -12%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 60%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+    .container__viviendas3{
+
+      margin-top: 18%;
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 23%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+    .container__viviendas4{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+
+
+        }
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+
+
+    }
+
+    .container__viviendas5{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 22%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .decoracion5{
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-start;
+      .decoracion__verde1{
+        width: 13%;
+        margin-top: 3%;
+        height: 4.5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado2{
+        width: 10%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas6{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+
+
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1540px){
+
+  .contenedor__principal{
+
+
+    .contendor__inicio {
+
+
+
+
+      .contendor__inicio__subtitulo {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        color: var(--DORADO_CLARO);
+        font-family: var(--ops);
+        font-size: 1em;
+        display: flex;
+        margin-top: -10%;
+        margin-right: 91%;
+
+        .sub {
+          margin-top: -10800px;
+        }
+
+      }
+      .container__textos{
+
+        margin-top: 22%;
+        margin-left: 25%;
+        font-size: 1em;
+        width: 70%;
+        .container__textos_parrafo{
+          margin-top: 50%;
+        }
+
+      }
+
+    }
+    .decoracion{
+      margin-left: 19%;
+
+    }
+    .contaier__tarjetas{
+
+      margin-top: -13%;
+
+
+    }
+
+    .container__viviendas{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -14%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+    .decoracion1{
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-end;
+      .decoracion__verde{
+        width: 15%;
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado{
+        width: 20%;
+        height: 8vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas1{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -15%;
+          margin-left: 22%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .container__viviendas2{
+
+
+      .container__caracteristicas{
+
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+          font-weight: 800;
+          letter-spacing: 1px;
+          font-family: var(--ops1);
+
+          .especificacion{
+            display: flex;
+            gap: 8%;
+            .imagen{
+              width: 10%;
+            }
+            .especificaciones{
+              .tit{
+
+                color: var(--GRIS_CLARO);
+                font-family: var(--ops1);
+                font-size: 1em;
+                font-weight: 800;
+
+              }
+              .sub{
+
+              }
+            }
+
+          }
+
+        }
+        .boton__whatsapp{
+          display: flex;
+          font-family: var(--ops);
+          background: none;
+          border: none;
+          margin-top: -12%;
+          margin-left: 20%;
+
+          padding: 0;
+          width: 80%;
+
+          .container__whatsapp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--ops);
+            border-radius: 12px;
+            border: var(--verde) 2px solid;
+            background-color: var(--VERDE_OSCURO);
+            width: 60%;
+            height: 40px;
+            color: white;
+            margin: auto;
+
+            .img__whatsapp{
+              width: 10%;
+            }
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+    .container__viviendas3{
+
+      margin-top: 18%;
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 23%;
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+    .container__viviendas4{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .especificaciones{
+          font-size: 1em;
+
+
+        }
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+
+
+    }
+
+    .container__viviendas5{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 22%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+    .decoracion5{
+      width: 100%;
+      margin-top: 5%;
+      margin-bottom: -8%;
+      display: flex;
+      justify-content: flex-start;
+      .decoracion__verde1{
+        width: 13%;
+        margin-top: 3%;
+        height: 4.5vh;
+        background-color:var(--VERDE_OSCURO);
+        position: absolute;
+        z-index: 1;
+      }
+      .decoracion__dorado2{
+        width: 10%;
+        height: 6vh;
+        background: linear-gradient(to right, var(--DORADO_OSCURO), var(--DORADO_CLARO), var(--DORADO_CLARO), var(--DORADO_OSCURO));
+      }
+    }
+    .container__viviendas6{
+
+      .container__caracteristicas{
+
+        .titulo{
+
+          .titulo1{
+            font-size: 3em;
+
+
+          }
+
+        }
+
+        .boton__whatsapp{
+
+          margin-top: -13%;
+          margin-left: 20%;
+
+
+          .container__whatsapp{
+
+            width: 60%;
+
+
+
+          }
+
+
+        }
+
+      }
+      .container__caracteristicas1{
+        display: none;
+      }
+    }
+
+
+
+
+  }
 }

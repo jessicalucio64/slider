@@ -154,21 +154,25 @@
       color: var(--VERDE_OSCURO);
       font-size: 1.5em;
       line-height: 20px;
+      position: absolute;
+      z-index: 1;
       .span__verde{
         font-weight:bold;
 
       }
     }
+
     .boton__whatsapp{
       display: flex;
       font-family: var(--ops);
       background: none;
       border: none;
       margin-top: 0%;
-
+      position: relative;
       padding: 0;
       width: 50%;
       text-decoration: none;
+      z-index: 10;
 
       .container__whatsapp{
         display: flex;
@@ -199,6 +203,73 @@
 
 
   }
+  .contaier__tarjetas1{
+
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+    margin-bottom: -15%;
+
+    .container__tarjetas__titulo{
+      margin-top: 10%;
+      color: var(--VERDE_OSCURO);
+      font-size: 1.5em;
+      line-height: 20px;
+      position: absolute;
+      z-index: 1;
+      .span__verde{
+        font-weight:bold;
+
+      }
+    }
+
+    .boton__whatsapp{
+      display: flex;
+      font-family: var(--ops);
+      background: none;
+      border: none;
+      margin-top: 0%;
+      position: relative;
+      padding: 0;
+      width: 50%;
+      text-decoration: none;
+      z-index: 10;
+
+      .container__whatsapp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--ops);
+        border-radius: 12px;
+        border: var(--verde) 2px solid;
+        background-color: var(--VERDE_OSCURO);
+        width: 30%;
+        height: 50px;
+        color: white;
+        margin: auto;
+        margin-top: 35%;
+
+        .texto__whatsapp{
+          padding-top: 4.5%;
+          padding-left: 2%;
+
+        }
+        .img__whatsapp{
+          width: 8%;
+        }
+
+      }
+
+
+    }
+
+
+  }
+
 
   .container__viviendas{
     width: 100%;
@@ -1565,7 +1636,15 @@
 
 }
 
+.modalito{
+  width: 150vh;
 
+
+}
+.img__mapa{
+  width: 100vh;
+  margin-top: -10%;
+}
 
 @media screen  and (max-width: 991px){
   .contenedor__principal{

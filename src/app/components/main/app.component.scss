@@ -1122,8 +1122,9 @@
   }
 
   ::-webkit-scrollbar-thumb
-  {
-    border: 8px solid none;
+  {background: var(--VERDE_CLARO);
+    border-radius: 20px;border: 8px solid none;
+    
   }
 
   ::-webkit-scrollbar-button:vertical:start:decrement {
@@ -1132,6 +1133,7 @@
         linear-gradient(240deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
         linear-gradient(0deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
     background-color: #b6b6b6;
+   
   }
 
   ::-webkit-scrollbar-button:vertical:end:increment {
@@ -1424,6 +1426,7 @@
       white-space: nowrap;
       box-sizing: border-box;
       display: flex;
+
   }
 
   .carousel__slide {

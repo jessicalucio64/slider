@@ -149,6 +149,7 @@
     margin-top: -10%;
     position: absolute;
     z-index: -1;
+
     .container__tarjetas__titulo{
       margin-top: 10%;
       color: var(--VERDE_OSCURO);
@@ -1136,6 +1137,7 @@
     padding-top: 20%;
     margin-bottom: 10%;
     gap: 30px;
+    text-decoration: none;
     .footer1{
         display: flex;
         margin-bottom: 3%;
@@ -1183,14 +1185,47 @@
         font-family: var(--ops);
         color: #bcbcbc;
         font-size: 0.9em;
-        width: 50%;
-
+        width: 40%;
+        text-decoration: none;
         justify-content: center;
         align-items: center;
         gap: 4%;
-        .terminos{
+        margin-top: 1%;
+        .terminos {
             border-right: #bcbcbc 2px solid;
-            width: 25%;
+            width: 30%;
+            text-decoration: none;
+            a{
+              text-decoration: none;
+              color: #bcbcbc;
+              font-size: 0.9em;
+
+            }
+            .terminos1{
+              text-decoration: none;
+              color: #bcbcbc;
+              font-size: 0.9em;
+
+
+            }
+
+
+        }
+        .politica{
+          text-decoration: none;
+          a{
+            text-decoration: none;
+            color: #bcbcbc;
+            font-size: 0.9em;
+          }
+          .terminos1{
+            text-decoration: none;
+            color: #bcbcbc;
+            font-size: 0.9em;
+
+
+          }
+
         }
 
     }
@@ -1285,7 +1320,7 @@
       content: "";
       width: 100%;
       height: 800px;
-      padding-top: ($height / $width) * 100%;
+      padding-top: calc($height / $width) * 100%;
     }
 
     > img {
@@ -1632,19 +1667,18 @@
           object-fit: cover;
       }
   }
+  .modalito{
+    width: 150vh;
 
+
+  }
+  .img__mapa{
+    width: 100vh;
+    margin-top: -22%;
+  }
 
 }
 
-.modalito{
-  width: 150vh;
-
-
-}
-.img__mapa{
-  width: 100vh;
-  margin-top: -22%;
-}
 
 @media screen  and (max-width: 991px){
   .contenedor__principal{
@@ -1728,9 +1762,10 @@
       margin-top: 0%;
       position: relative;
       z-index: 1;
+
       .container__tarjetas__titulo{
         margin-top: 10%;
-        font-size: 1em;
+        font-size: 0.5em;
 
       }
       .boton__whatsapp{
@@ -1741,7 +1776,7 @@
         margin-top: 0%;
         text-decoration: none;
         padding: 0;
-        width: 60%;
+        width: 100%;
 
         .container__whatsapp{
           display: flex;
@@ -1769,6 +1804,11 @@
 
 
       }
+
+
+    }
+    .contaier__tarjetas1{
+      display: none;
 
 
     }
@@ -3213,6 +3253,10 @@
       none;
   background-color: none;
     }
+
+  }
+  .img__mapa{
+    width: 500px;
 
   }
 
@@ -5081,26 +5125,57 @@
     .contendor__inicio {
 
 
+      .contendor__inicio__titulo {
+        color: var(--DORADO_CLARO);
+        font-size: 0em;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5%;
+        font-family: var(--bree);
+        letter-spacing: 1px;
 
+        .titulo {
+
+          height: 60px;
+          border-right: var(--DORADO_CLARO) 1px solid;
+
+        }
+
+        .titulo1 {
+
+          height: 60px;
+          border-right: var(--ops) 1px solid;
+          font-size: 0.5em;
+          margin-top: 10%;
+
+        }
+
+      }
 
       .contendor__inicio__subtitulo {
         writing-mode: vertical-lr;
         transform: rotate(180deg);
         color: var(--DORADO_CLARO);
         font-family: var(--ops);
-        font-size: 1em;
+        font-size: 1.5em;
         display: flex;
         margin-top: -10%;
         margin-right: 91%;
 
+
         .sub {
-          margin-top: -10800px;
+          margin-top: -200%;
+          font-size: 1em;
+
         }
 
       }
       .container__textos{
 
-        margin-top: 22%;
+        margin-top: 5%;
         margin-left: 25%;
         font-size: 1em;
         width: 70%;
@@ -5111,6 +5186,7 @@
       }
 
     }
+
     .decoracion{
       margin-left: 19%;
 

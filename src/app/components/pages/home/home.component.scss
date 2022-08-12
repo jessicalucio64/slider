@@ -26,24 +26,13 @@
       align-items: center;
       justify-content: center;
       width: 100%;
-      margin-top: 5%;
+      margin-top: -25%;
       font-family: var(--bree);
       letter-spacing: 1px;
-
-      .titulo {
-
-        height: 60px;
-        border-right: var(--DORADO_CLARO) 1px solid;
-
-      }
-
-      .titulo1 {
-
-        height: 60px;
-        border-right: var(--ops) 1px solid;
-        font-size: 0.5em;
+      position: absolute;
+      .img__titulo{
+        width: 30%;
         margin-top: -20%;
-
       }
 
     }
@@ -55,12 +44,12 @@
       font-family: var(--ops);
       font-size: 1em;
       display: flex;
-      margin-top: -10%;
+      margin-top: -15%;
       margin-right: 91%;
+      height: 60vh;
+      position:absolute;
 
-      .sub {
-        margin-top: -290%;
-      }
+
 
     }
     .container__textos{
@@ -68,7 +57,7 @@
       justify-content: center;
       align-items: center;
       gap: 40px;
-      margin-top: 22%;
+      margin-top: 50%;
       margin-left: 20%;
       font-family: var(--ops);
       font-size: 1.2em;
@@ -77,14 +66,14 @@
       width: 50%;
       padding-bottom: 3%;
       .container__textos_parrafo{
-        margin-top: 50%;
+        margin-top: 5%;
       }
       .boton__whatsapp{
         display: flex;
         font-family: var(--ops);
         background: none;
         border: none;
-        margin-top: 50%;
+        margin-top: 5%;
         padding-top: -3;
         width: 50%;
         text-decoration: none;
@@ -270,7 +259,6 @@
 
 
   }
-
 
   .container__viviendas{
     width: 100%;
@@ -1134,7 +1122,7 @@
     justify-content: center;
     align-items: center;
     background-color:#0a4436;
-    padding-top: 20%;
+    padding-top: 15%;
     margin-bottom: 10%;
     gap: 30px;
     text-decoration: none;
@@ -1148,36 +1136,14 @@
             letter-spacing: 1px;
             font-family: 'Bree Serif', serif;;
             color: #ffea80;
-            border-bottom: var(--DORADO_CLARO) 3px solid;
-            .titulo2{
-              font-size: 2em;
-
+            .img__footer{
+              width: 100%;
             }
+
 
 
         }
-        .footer__text2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-family: var(--ops);
-            font-weight: 50;
-            letter-spacing: 2.5px;
-            line-height: 20px;
-            color: #ffea80;
 
-            .titulo{
-                font-size: 1em;
-
-            }
-            .subtitulo{
-                font-size: 0.5em;
-
-
-            }
-
-        }
 
     }
     .footer__terminos{
@@ -1276,13 +1242,13 @@
 
   ::-webkit-scrollbar
   {
-    width: 18px;
+    width: 5px;
     background-color: none;
   }
 
   ::-webkit-scrollbar-thumb
   {background: var(--GRISO_MEDIO);
-    border-radius: 20px;border: 8px solid none;
+    border-radius: 10px;border: 4px solid none;
 
   }
 

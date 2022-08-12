@@ -1157,10 +1157,12 @@
         align-items: center;
         gap: 4%;
         margin-top: 1%;
+
         .terminos {
             border-right: #bcbcbc 2px solid;
-            width: 30%;
+            width: 26.5%;
             text-decoration: none;
+
             a{
               text-decoration: none;
               color: #bcbcbc;
@@ -1243,12 +1245,15 @@
   ::-webkit-scrollbar
   {
     width: 5px;
+    height: 8px;
     background-color: none;
   }
 
   ::-webkit-scrollbar-thumb
   {background: var(--GRISO_MEDIO);
-    border-radius: 10px;border: 4px solid none;
+    border-radius: 10px;
+    border: 4px solid none;
+
 
   }
 

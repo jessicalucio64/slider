@@ -1,0 +1,49 @@
+.tarjeta {
+  background: red;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  .contenedor__tarjeta {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    .tarjeta__marco__descripcion{
+      background: white;
+      width: 625px;
+      height: 625px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border-radius: 25px;
+    }
+  }
+
+}
+
+
+.tarjeta__carrusel{
+  background: green;
+
+  .tarjeta__carrusel__contenedor{
+    width: 60%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    .tarjeta__carrusel__item{
+      list-style: none;
+    }
+    .tarjeta__carrusel__imagen{
+      width: 240px;
+      height: 240px;
+    }
+  }
+
+}
+
+
+.tarjeta__imagen__portada{
+  width: 65%
+}

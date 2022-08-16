@@ -7,6 +7,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { TeminosComponent } from './components/pages/teminos/teminos.component';
 import { PoliticasComponent } from './components/pages/politicas/politicas.component';
 import { AppRoutingModule } from './components/main/app-routing.module';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 
 
 
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './components/main/app-routing.module';
     HomeComponent,
     TeminosComponent,
     PoliticasComponent,
+    TarjetasComponent,
   ],
   imports: [
     BrowserModule,

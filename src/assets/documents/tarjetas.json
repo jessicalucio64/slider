@@ -1,0 +1,180 @@
+[
+  {
+    "id":1,
+    "titulo": "Granada",
+    "terreno": "140",
+    "m_constr": 117,
+    "domitorios": 3,
+    "baños": 3,
+    "balcon": 1,
+    "terraza": null,
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": null,
+    "img_portada": "assets/images/GRANADA/cocina-hacienda-valbuena-granada.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "cocina-hacienda-valbuena-granada.webp",
+        "img2": "comedor-hacienda-valbuena-granada.webp",
+        "img3": "cuarto-dos-hacienda-valbuena-granada.webp",
+        "img4": "cuarto-tres-hacienda-valbuena-granada.webp",
+        "img5": "cuarto-uno--hacienda-valbuena-granada.webp",
+        "img6": "exterior-hacienda-valbuena-granada.webp",
+        "img7": "frente-hacienda-valbuena-granada.webp",
+        "img8": "sala-hacienda-valbuena-granada.webp",
+        "img9": "tres-en-uno-hacienda-valbuena-granada.webp"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "titulo": "Bilbao",
+    "terreno": "160",
+    "m_constr": 138.5,
+    "domitorios": 3,
+    "baños": 3,
+    "balcon": 1,
+    "terraza": null,
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": null,
+    "img_portada": "assets/images/BILBAO/cocina-hacienda-valbuena-bilbao.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "cocina-hacienda-valbuena-bilbao.webp",
+        "img2": "cuarto-bebe--hacienda-valbuena-bilbao.webp",
+        "img3": "cuarto-dos--hacienda-valbuena-bilbao.webp",
+        "img4": "exterior-hacienda-valbuena-bilbao.webp",
+        "img5": "frente-hacienda-valbuena-bilbao.webp",
+        "img6": "sala-y-comedor-hacienda-valbuena-bilbao.webp",
+        "img7": "tres-en-uno-hacienda-valbuena-bilbao.webp"
+      }
+    ]
+  },
+  {
+    "id":3,
+    "titulo": "Mallorca",
+    "terreno": "140",
+    "m_constr": 145,
+    "domitorios": 3,
+    "baños": 2.5,
+    "balcon": 1,
+    "terraza": null,
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": 1,
+    "img_portada": "assets/images/MALLORCA/cocina-hacienda-valbuena-mallorca.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "cocina-hacienda-valbuena-mallorca.webp",
+        "img2": "comedor-hacienda-valbuena-mallorca.webp",
+        "img3": "cuarto-dos-hacienda-valbuena-mallorca.webp",
+        "img4": "cuarto-uno--hacienda-valbuena-mallorca.webp",
+        "img5": "cuarto-y-baño-hacienda-valbuena-mallorca.webp",
+        "img6": "frente-hacienda-valbuena-mallorca.webp",
+        "img7": "sala-comedor-hacienda-valbuena-mallorca.webp",
+        "img8": "sala-dos--hacienda-valbuena-mallorca.webp"
+      }
+    ]
+  },
+  {
+    "id":4,
+    "titulo": "Sevilla",
+    "terreno": "160",
+    "m_constr": 175,
+    "domitorios": 3,
+    "baños": 2.5,
+    "balcon": 1,
+    "terraza": null,
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": 1,
+    "img_portada": "assets/images/SEVILLA/cocina-hacienda-valbuena-sevilla.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "cocina-hacienda-valbuena-sevilla.webp",
+        "img2": "comedor-hacienda-valbuena-sevilla.webp",
+        "img3": "cuarto-uno-hacienda-valbuena-sevilla.webp",
+        "img4": "exterior-hacienda-valbuena-sevilla.webp",
+        "img5": "frente-hacienda-valbuena-sevilla.webp",
+        "img6": "sala-y-comedor-hacienda-valbuena-sevilla.webp"
+      }
+    ]
+  },
+  {
+    "id":5,
+    "titulo": "Valencia",
+    "terreno": "160",
+    "m_constr": 181,
+    "domitorios": 3,
+    "baños": 2.5,
+    "balcon": 1,
+    "terraza": null,
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": 1,
+    "img_portada": "assets/images/VALENCIA/bano-hacienda-valbuena-valencia.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "bano-hacienda-valbuena-valencia.webp",
+        "img2": "cuarto-dos-hacienda-valbuena-valencia.webp",
+        "img3": "cuarto-tres-hacienda-valbuena-valencia.webp",
+        "img4": "cuarto-uno-hacienda-valbuena-valencia.webp",
+        "img5": "frente-hacienda-valbuena-valencia.webp",
+        "img6": "hall-de-tv-hacienda-valbuena-valencia.webp",
+        "img7": "otro-aungulo-de-sala-hacienda-valbuena-valencia.webp",
+        "img8": "sala-y-comedor-hacienda-valbuena-valencia.webp"
+      }
+    ]
+  },
+  {
+    "id":6,
+    "titulo": "Barcelona",
+    "terreno": "200",
+    "m_constr": 206.5,
+    "domitorios": 3,
+    "baños": 2.5,
+    "balcon": 1,
+    "terraza": null,
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": 1,
+    "img_portada": "assets/images/BARCELONA/bano-hacienda-valbuena-barcelona.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "bano-hacienda-valbuena-barcelona.webp",
+        "img2": "cocina-hacienda-valbuena-barcelona.webp",
+        "img3": "cuarto-dos-hacienda-valbuena-barcelona.webp",
+        "img4": "cuarto-uno-hacienda-valbuena-barcelona.webp",
+        "img5": "exterior-hacienda-valbuena-barcelona.webp",
+        "img6": "frente-hacienda-valbuena-barcelona.webp",
+        "img7": "sala-y-comedor-hacienda-valbuena-barcelona.webp"
+      }
+    ]
+  },
+  {
+    "id":7,
+    "titulo": "Madrid",
+    "terreno": "200",
+    "m_constr": 234.5,
+    "domitorios": 3,
+    "baños": 4.5,
+    "balcon": 1,
+    "terraza": "Si",
+    "enlace": "https://wa.me/+524448285919/?text=tu%20texto%20personalizado",
+    "hall_tv": 1,
+    "img_portada": "assets/images/MADRID/sala-hacienda-valbuena-madrid.webp",
+    "carrusel_imagenes": [
+      {
+        "img1": "bano-dos-hacienda-valbuena-madrid.webp",
+        "img2": "bano-principal-hacienda-valbuena-madrid.webp",
+        "img3": "cocina-hacienda-valbuena-madrid.webp",
+        "img4": "comedor-hacienda-valbuena-madrid.webp",
+        "img5": "cuarto-dos-hacienda-valbuena-madrid.webp",
+        "img6": "cuarto-uno-hacienda-valbuena-madrid",
+        "img7": "escaleras-hacienda-valbuena-madrid.webp",
+        "img8": "exterior-hacienda-valbuena-madrid.webp",
+        "img9": "frente-hacienda-valbuena-madrid.webp",
+        "img10": "loft-hacienda-valbuena-madrid.webp",
+        "img11": "sala-hacienda-valbuena-madrid.webp",
+        "img12": "terraza-hacienda-valbuena-madrid.webp"
+
+      }
+    ]
+  }
+
+]

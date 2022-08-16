@@ -1,7 +1,7 @@
 .contenedor__principal{
 
   max-width: 2030px;
-  min-width: 700px;
+  min-width: 600px;
   margin: auto;
   .contendor__inicio {
     background: url('/assets/images/FONDO_HEADER_ESCRITORIO/iconografia-hacienda-valbuena-escritorio.webp');
@@ -1651,7 +1651,7 @@
 
 }
 
-@media screen  and (max-width: 400px){
+@media screen  and (max-width: 420px){
   .contenedor__principal{
 
     .contendor__inicio {
@@ -1702,7 +1702,7 @@
 
         .container__textos_parrafo{
           margin-top: 70%;
-          font-size: 0.83em;
+          font-size: 0.7em;
         }
         .boton__whatsapp{
           display: flex;
@@ -1843,6 +1843,7 @@
            justify-content: center;
            align-items: center;
 
+
           .especificacion{
             display: flex;
             gap: 1%;
@@ -1894,6 +1895,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+
          .especificacion{
            display: flex;
            gap: 8%;
@@ -1925,15 +1927,17 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-left: -50%;
+          margin-left: 5%;
          .especificacion{
            display: flex;
            gap: 8%;
+           margin-left: 25%;
            img{
-            width:80%;
+            width:10px;
            }
            .imagen{
-             width:80%;
+             width:10px;
+
            }
            .especificaciones{
 
@@ -1968,7 +1972,7 @@
         border: none;
         color: white;
         padding: 12px 12px;
-        font-size: 16px;
+        font-size: 5px;
         text-decoration: none;
         cursor: pointer;
         display: flex;
